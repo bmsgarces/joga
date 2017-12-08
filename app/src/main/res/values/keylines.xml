@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keyline_space_grid_9">10dp</dimen>
+    <dimen name="keyline_space_grid_10">8dp</dimen>
+    <dimen name="keyline_space_grid_16">2dp</dimen>
+</resources>
