@@ -1,19 +1,21 @@
 package inc.bizties.joga.features.home
 
-import inc.bizties.joga.shared.viewbuilders.BaseViewBuilder
+import android.content.Context
+import inc.bizties.joga.shared.base.BasePresenter
+import inc.bizties.joga.shared.base.BaseView
 
 interface HomePact {
 
-    interface ViewBuilder : BaseViewBuilder<Presenter> {
+    interface View : BaseView {
 
         fun manageNoContent()
 
         fun hideProgress()
     }
 
-    interface Presenter {
+    interface Presenter : BasePresenter<HomePact.View> {
 
-        fun showPlayerDialog()
+        fun showPlayerDialog(context: Context)
 
         fun refresh()
     }

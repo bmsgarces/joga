@@ -8,12 +8,12 @@ class JogaApplication : Application() {
     companion object {
 
         private const val LOG_TAG = "JogaApplication"
+    }
 
-        lateinit var instance: JogaApplication
+    lateinit var instance: JogaApplication
 
-        init {
-            AppCompatDelegate.setCompatVectorFromResourcesEnabled(true)
-        }
+    init {
+        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true)
     }
 
     override fun onCreate() {

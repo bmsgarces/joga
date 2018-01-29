@@ -17,7 +17,7 @@
                 android:paddingTop="@dimen/keyline_space_grid_9">
 
             <include
-                    android:id="@+id/table_header"
+                    android:id="@+id/tableHeader"
                     layout="@layout/home_table_header_view"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -28,7 +28,7 @@
                     android:id="@+id/recyclerView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/table_header" />
+                    android:layout_below="@id/tableHeader" />
 
             <TextView
                     android:id="@+id/view_no_content"
