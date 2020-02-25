@@ -1,7 +1,7 @@
 package inc.bizties.joga.features.home.presenter
 
 import android.content.Context
-import android.support.v7.app.AlertDialog
+import androidx.appcompat.app.AlertDialog
 import android.view.LayoutInflater
 import inc.bizties.joga.R
 import inc.bizties.joga.features.home.HomePact

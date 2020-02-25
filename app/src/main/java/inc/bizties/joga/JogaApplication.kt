@@ -1,7 +1,7 @@
 package inc.bizties.joga
 
 import android.app.Application
-import android.support.v7.app.AppCompatDelegate
+import androidx.appcompat.app.AppCompatDelegate
 
 class JogaApplication : Application() {
 

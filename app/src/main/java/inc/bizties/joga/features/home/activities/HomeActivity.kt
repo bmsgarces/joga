@@ -1,8 +1,8 @@
 package inc.bizties.joga.features.home.activities
 
 import android.os.Bundle
-import android.support.v4.app.Fragment
-import android.support.v7.app.AppCompatActivity
+import androidx.fragment.app.Fragment
+import androidx.appcompat.app.AppCompatActivity
 import inc.bizties.joga.R
 import inc.bizties.joga.features.home.fragments.HomeFragment
 import kotlinx.android.synthetic.main.container_view.*
